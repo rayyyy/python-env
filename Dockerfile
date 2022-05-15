@@ -1,12 +1,7 @@
-FROM tensorflow/tensorflow:latest-gpu
-
+FROM python:3.10-buster
 COPY requirements.txt .
-RUN pip3 install --upgrade pip
-RUN pip3 install -r requirements.txt
-RUN apt-get update && \
-  apt-get install -y git
 
-RUN pip install jupyterlab
+RUN pip3 install -r requirements.txt
 
 WORKDIR /app
 COPY . /app
