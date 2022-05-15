@@ -2,3 +2,6 @@ nb-black==1.0.7
 autopep8==1.6.0
 matplotlib==3.5.2
 jupyterlab==3.4.2
+dagster==0.14.15
+dagit==0.14.15
+requests==2.27.1

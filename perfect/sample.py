@@ -11,3 +11,4 @@ def main():
 # コマンドラインから直接実行された場合は__name__に'__main__'が入る
 if __name__ == '__main__':
     main()
+    print(main.__doc__)
