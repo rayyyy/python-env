@@ -1,4 +1,8 @@
-# python-ai-programing
+# python-env
 
-https://github.com/rasbt/python-machine-learning-book-3rd-edition
-この本の勉強用環境
+pythonの遊び用環境
+
+jupyter起動
+```
+jupyter-lab --ip 0.0.0.0 --port=8080 --allow-root --no-browser
+```
